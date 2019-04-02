@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f8;
+}
+
+div{
+    width: 70%;
+    height: 400px;
+    background-color: blue;
+    margin:5% auto;
+
+}
+#keypress-txt{
+    margin:15% 35%;
+    font-size: 25px;
+    border:solid 2px grey;
+}
+
+#res-KeyButton{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-res{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 80px;;
+    /* border:solid 2px #fff; */
+}
+p{
+    border :solid 1px#fff;
+    font-size: 20px;
+    color:#fff;
+}
+
+#key-press, #key-code, #key-which, #key-location{
+    margin-top:-10px;
+    }
